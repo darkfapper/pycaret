@@ -3,3 +3,4 @@ moto>=3.0.7
 codecov>=2.1.12
 dask[dataframe]>=2022.2.0
 dash[testing]
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
