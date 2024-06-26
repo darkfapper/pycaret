@@ -28,7 +28,7 @@ scikit-optimize>=0.9.0
 mlflow>=1.24.0
 gradio>=2.8.10
 boto3>=1.24.56  # For deploy_model method
-fastapi>=0.75.0  # For web api
+fastapi>=0.109.1  # For web api
 uvicorn>=0.17.6  # For web api
 m2cgen>=0.9.0  # For model conversion
 evidently>=0.1.45.dev0  # for drift reporting
@@ -44,3 +44,8 @@ textblob>=0.17.1
 # Parallel
 fugue~=0.6.6
 flask>=2.0.3
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+scikit-learn>=1.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
