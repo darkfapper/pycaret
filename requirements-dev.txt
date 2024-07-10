@@ -1,3 +1,4 @@
 black>=22.1.0
 isort>=5.10.1
 flake8>=4.0.1
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
