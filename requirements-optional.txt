@@ -9,7 +9,7 @@ fairlearn>=0.7.0  # For check_fairness method
 # deepchecks>=0.8.2  # For deep_check method  TODO: Add when compatible with plotly
 
 # Models
-xgboost>=1.1.0
+xgboost>=1.7.0
 catboost>=0.23.2
 kmodes>=0.11.1
 mlxtend>=0.19.0
@@ -25,16 +25,16 @@ optuna>=3.0.0
 scikit-optimize>=0.9.0
 
 # MLOps
-mlflow>=1.24.0
-gradio>=2.8.10
+mlflow>=2.15.0
+gradio>=4.31.3
 boto3>=1.24.56  # For deploy_model method
-fastapi>=0.75.0  # For web api
+fastapi>=0.109.1  # For web api
 uvicorn>=0.17.6  # For web api
 m2cgen>=0.9.0  # For model conversion
 evidently>=0.1.45.dev0  # for drift reporting
 
 # NLP
-nltk>=3.7
+nltk>=3.8.2
 pyLDAvis>=3.3.1
 gensim>=4.1.2
 spacy>=3.2.3
@@ -44,3 +44,20 @@ textblob>=0.17.1
 # Parallel
 fugue~=0.6.6
 flask>=2.0.3
+aiohttp>=3.10.2 # not directly required, pinned by Snyk to avoid a vulnerability
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+gunicorn>=22.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+ipython>=8.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+orjson>=3.9.15 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pyarrow>=14.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+scikit-learn>=1.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
